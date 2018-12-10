@@ -7,9 +7,9 @@ import scipy.integrate as integrate
 
 # Parameters
 ETA = 3.25          # droplet shape factor
-LAMBDA = 2400 #1200     # diffusion length in nm
+LAMBDA = 1200     # diffusion length in nm
 GR_VS_0 = 5.616   # linear factor for VS growth rate from fit to Tersoff model
-GR_AX =  76        # GR_AXial growth rate in nm/min
+GR_AX =  76        # axial growth rate in nm/min
 RADIUS_0 = 15    # initial NW radius in nm
 # Define range of V/III ratio
 RATIO_MIN = 1.4
